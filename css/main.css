@@ -12,7 +12,7 @@ img{
     --color-primary: #08A6E4;
     --color-primary-shadow: rgba(7, 172, 230, .16);
     --color-reddish: #FB3B64;
-    --color-grenn: #55DFB4;
+    --color-green: #55DFB4;
     --color-black: #000;
     --color-grey: #A5A5A5;
     --color-light-grey: #F7F7F7;
@@ -21,7 +21,65 @@ img{
     --font-raleway: 'Raleway', sans-serif;
 }
 
-.container{
+.container {
     margin: 0 auto;
     max-width: 1352px;
     width: 100%;
+}
+
+body{
+    font-family: var(--font-open-sans);
+}
+
+a{
+    text-decoration: none;
+}
+
+.header{
+    max-width: 100vw;
+    max-height: 20vh;
+}
+
+.header-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 10px;
+}
+
+.header-logo{
+    display: flex;
+    font-size: 2rem;
+    font-family: var(--font-raleway);
+    font-weight: 300;
+    color: var(--color-primary);
+}
+
+.header-list{
+    display: flex;
+    justify-content: space-around;
+}
+
+.header-li{
+    display: flex;
+}
+
+.header-li a{
+    padding: 27px 30px;
+    font-family: var(--font-open-sans);
+    font-weight: bold;
+    color: var(--color-grey);
+}
+
+.header-li a:hover{
+    color: var(--color-black);
+    border-bottom: 2px solid var(--color-primary);
+}
+
+
+
+
+
+
+
