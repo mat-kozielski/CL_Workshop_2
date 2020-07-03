@@ -316,14 +316,41 @@ a{
 
 .content-double{
     background-color: var(--color-light-grey);
+    margin-bottom: 0;
 }
 
 .text-double{
+    width: 620px;
     background-color: var(--color-white);
     margin: 0;
-    padding: 90px 35px 90px 35px;
+    height: 100%;
+    padding: 70px 35px 70px 35px;
 }
 
 .underline3{
     border-color: var(--color-green);
+}
+
+.image3{
+    flex-grow: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--color-green);
+    border: none;
+    height: 380px;
+    max-width: 450px;
+}
+
+.content-image .image3 img{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    align-self: center;
+}
+
+.container-double{
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
 }
