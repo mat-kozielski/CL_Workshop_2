@@ -298,8 +298,8 @@ a{
 }
 
 .under-image2{
-    height: 220px;
-    width: 220px;
+    height: 320px;
+    width: 320px;
     border-radius: 50%;
     background-color: var(--color-primary);
     display: block;
@@ -320,7 +320,7 @@ a{
 }
 
 .text-double{
-    width: 620px;
+    flex-grow: 1;
     background-color: var(--color-white);
     margin: 0;
     height: 100%;
