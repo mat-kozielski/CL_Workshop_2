@@ -230,6 +230,7 @@ a{
     border: 1px solid #E8E9ED;
     display: flex;
     align-items: flex-end;
+    justify-content: space-around;
     margin-bottom: 37px;
     border-radius: 5px;
 }
@@ -283,8 +284,8 @@ a{
 }
 
 .under-image{
-    height: 180px;
-    width: 180px;
+    height: 100%;
+    width: 50%;
     border-radius: 41px;
     background-color: var(--color-reddish);
     display: block;
@@ -298,8 +299,8 @@ a{
 }
 
 .under-image2{
-    height: 320px;
-    width: 320px;
+    height: 100%;
+    width: 70%;
     border-radius: 50%;
     background-color: var(--color-primary);
     display: block;
@@ -340,6 +341,7 @@ a{
     border: none;
     height: 380px;
     max-width: 450px;
+    margin: 0;
 }
 
 .content-image .image3 img{
