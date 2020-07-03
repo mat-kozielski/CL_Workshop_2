@@ -1,0 +1,27 @@
+*{
+    box-sizing: border-box;
+}
+
+img{
+    max-width: 100%;
+    max-height: 100%;
+
+}
+
+:root{
+    --color-primary: #08A6E4;
+    --color-primary-shadow: rgba(7, 172, 230, .16);
+    --color-reddish: #FB3B64;
+    --color-grenn: #55DFB4;
+    --color-black: #000;
+    --color-grey: #A5A5A5;
+    --color-light-grey: #F7F7F7;
+    --color-white: #FFF;
+    --font-open-sans: 'Open Sans', sans-serif;
+    --font-raleway: 'Raleway', sans-serif;
+}
+
+.container{
+    margin: 0 auto;
+    max-width: 1352px;
+    width: 100%;
