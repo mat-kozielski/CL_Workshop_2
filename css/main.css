@@ -19,6 +19,7 @@ img{
     --color-white: #FFF;
     --font-open-sans: 'Open Sans', sans-serif;
     --font-raleway: 'Raleway', sans-serif;
+    --border-btn-radius: 40px;
 }
 
 .container {
@@ -37,7 +38,8 @@ a{
 
 .header{
     max-width: 100vw;
-    max-height: 20vh;
+    max-height: 10vh;
+    box-shadow: 0 3px 6px #00000029;
 }
 
 .header-container{
@@ -45,7 +47,6 @@ a{
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    margin: 0 10px;
 }
 
 .header-logo{
@@ -77,9 +78,104 @@ a{
     border-bottom: 2px solid var(--color-primary);
 }
 
+/*Styling first section*/
 
+.first-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
 
+.first-section-content{
+    margin-top: 130px;
+    text-align: center;
+}
 
+.first-section-header{
+    font-family: var(--font-raleway);
+    font-size: calc(49rem / 16);
+}
 
+.first-section-text{
+    margin-top: 20px;
+    margin-bottom: 38px;
+    font-size: 1rem;
+    font-family: var(--font-open-sans);
+}
 
+.btn{
+    display: inline-block;
+    color: var(--color-white);
+    font-weight: bold;
+    padding: 16px 65px;
+    border-radius: var(--border-btn-radius);
+}
 
+.first-section-btn{
+    padding: 22px 157px;
+    background-color: var(--color-primary);
+    box-shadow: 5px 10px 14px var(--color-primary-shadow);
+}
+
+.first-section-img{
+    height: auto;
+}
+
+/*Styling statistic section*/
+
+.statistic{
+    margin: 100px auto 120px;
+    display: flex;
+    justify-items: center;
+}
+
+/*.statistic-width{*/
+    /*max-width: 800px;*/
+    /*display: flex;*/
+/*}*/
+
+.statistic-header{
+    display: flex;
+    justify-content: center;
+    font-family: var(--font-raleway);
+    font-size: calc(36rem / 16);
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.statistic-content{
+    display: flex;
+    margin: 0 auto;
+    margin-top: 100px;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.statistic-article{
+    font-family: var(--font-raleway);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+}
+
+.article-circle{
+    width: 63px;
+    height: 63px;
+    position: relative;
+    border-radius: 50%;
+    background-color: var(--color-reddish);
+}
+
+.bg-color-2{
+    background-color: var(--color-primary);
+}
+
+.bg-color-3{
+    background-color: var(--color-green);
+}
+
+.article_img{
+    position: absolute;
+}
