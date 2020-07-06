@@ -129,11 +129,6 @@ a{
     justify-items: center;
 }
 
-/*.statistic-width{*/
-    /*max-width: 800px;*/
-    /*display: flex;*/
-/*}*/
-
 .statistic-header{
     display: flex;
     justify-content: center;
@@ -355,4 +350,93 @@ a{
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-between;
+}
+
+/*Styling pricing section*/
+
+.pricing-content{
+    display: flex;
+    margin: 100px auto 0 auto;
+    align-items: center;
+    justify-content: space-around;
+}
+
+
+.pricing-article{
+    display: flex;
+    border: 1px solid var(--color-reddish);
+    border-radius: 18px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+}
+
+.article-content{
+    display: flex;
+    margin-top: 34px;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0 118px;
+}
+
+.pricing-article-header{
+    display: flex;
+    font-size: calc(20rem / 16);
+    font-family: var(--font-raleway);
+    font-weight: bold;
+    margin-bottom: 14px;
+    justify-content: center;
+}
+
+.pricing-article-price{
+    font-family: var(--font-open-sans);
+    font-size: calc(46rem / 16);
+    color: var(--color-reddish);
+    margin-bottom: 69px;
+    display: flex;
+    justify-content: center;
+}
+
+.pricing-article-list{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 35px;
+    list-style-image: url("../images/Checkmark.svg");
+    font-size: calc(14rem / 16);
+    list-style-position: inside;
+}
+
+.pa-list-element{
+    margin-bottom: 20px;
+}
+
+.first-article-btn{
+    background-color: var(--color-reddish);
+    padding: 16px 57px;
+    position: absolute;
+    bottom: -24px
+}
+
+.third-article{
+    border: 1px solid var(--color-green);
+}
+
+.third-price{
+    color: var(--color-green);
+    margin-bottom: 5px;
+}
+
+.third-article-btn{
+    background-color: var(--color-green);
+    padding: 16px 57px;
+    position: absolute;
+    bottom: -24px
+}
+
+.under-header{
+    font-family: var(--font-raleway);
+    font-size: calc(12rem / 16);
+    font-weight: bold;
 }
