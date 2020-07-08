@@ -12,10 +12,10 @@
         <nav class="container header-container">
                <span class="header-logo">BestShop</span>
                <ul class="header-list">
-                   <li class="header-li"><a href="">Why us</a></li>
-                   <li class="header-li"><a href="">Benefits</a></li>
-                   <li class="header-li"><a href="">Prices</a></li>
-                   <li class="header-li"><a href="">Contact</a></li>
+                   <li class="header-li"><a href="#why-us">Why us</a></li>
+                   <li class="header-li"><a href="#benefits">Benefits</a></li>
+                   <li class="header-li"><a href="#prices">Prices</a></li>
+                   <li class="header-li"><a href="#contact">Contact</a></li>
                </ul>
         </nav>
     </header>
@@ -27,7 +27,7 @@
         </div>
         <img class="first-section-img" src="images/Background.png">
     </section>
-    <section class="first-section statistic">
+    <section class="first-section statistic" id="why-us">
         <h2 class="statistic-header">The most popular sales platform in country</h2>
         <div class="statistic-content">
             <article class="statistic-article">
@@ -53,7 +53,7 @@
             </article>
         </div>
     </section>
-    <section class="benefits">
+    <section class="benefits" id="benefits">
         <div class="container benefits-container">
             <div class="benefits-content">
                 <div class="content-text">
@@ -93,7 +93,7 @@
             <!--</div>-->
         </div>
     </section>
-    <section class="first-section statistic">
+    <section class="first-section statistic" id="prices">
         <h2 class="statistic-header">Pricing</h2>
         <div class="container pricing-content">
             <article class="pricing-article">
@@ -139,6 +139,57 @@
                     </ul>
                 </div>
                 <a href="" class="btn third-article-btn">Begin</a>
+        </div>
+    </section>
+
+    <section class="contact container" id="contact">
+        <div class="contact__column">
+            <h2 class="contact__title">Any questions?</h2>
+            <p class="contact__instruction">
+                Leave your email address or contact us!
+            </p>
+            <div class="contact__details">
+                <a href="mailto:info@bestshop.xyz" class="details__item">
+                    <img src="./images/Mail%20Icon.svg" alt="mail"/>
+                    info@bestshop.xyz
+                </a>
+
+                <a href="tel:123456789" class="details__item">
+                    <img src="./images/Phone%20Icon.svg" alt="phone"/>
+                    123 456 789
+                </a>
+            </div>
+        </div>
+
+        <div class="contact__column">
+            <form class="form">
+                <div class="form__field">
+                    <label class="form__label" for="name">Name</label>
+                    <input type="text" class="form__input name" id="name" />
+                </div>
+
+                <div class="form__field">
+                    <label class="form__label" for="email">E-mail</label>
+                    <input type="email" class="form__input email" id="email" />
+                </div>
+
+                <div class="form__consent">
+                    <label class="form__checkbox">
+                        <input type="checkbox"/>
+                        <span class="checkbox"></span>
+                        <p class="consent__text">
+                            I hereby give consent for my personal data included in my
+                            application to be processed for the purposes of the recruitment
+                            process under the European Parliament’s and Council of the
+                            European Union Regulation on the Protection of Natural Persons as
+                            of 27 April 2016, with regard to the processing of personal data
+                            and on the free movement of such data, and repealing Directive
+                            95/46/EC (Data Protection Directive)
+                        </p>
+                    </label>
+                </div>
+                <button type="submit" class="btn btn--primary">Send</button>
+            </form>
         </div>
     </section>
 </body>
