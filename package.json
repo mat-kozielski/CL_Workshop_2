@@ -1,0 +1,31 @@
+{
+  "name": "Sass_RWD",
+  "version": "1.0.0",
+  "description": "![Coders-Lab-1920px-no-background](https://user-images.githubusercontent.com/152855/73064373-5ed69780-3ea1-11ea-8a71-3d370a5e7dd8.png)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mat-kozielski/KRA_FER_S_26_Sass_RWD.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mat-kozielski/KRA_FER_S_26_Sass_RWD/issues"
+  },
+  "homepage": "https://github.com/mat-kozielski/KRA_FER_S_26_Sass_RWD#readme",
+  "devDependencies": {
+    "browser-sync": "^2.26.7",
+    "gulp": "^4.0.2",
+    "gulp-autoprefixer": "^7.0.1",
+    "gulp-sass": "^4.1.0",
+    "gulp-sourcemaps": "^2.6.5",
+    "sass": "^1.26.9"
+  },
+  "browserslist": [
+    "defaults"
+  ]
+}
