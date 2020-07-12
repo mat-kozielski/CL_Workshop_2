@@ -1,0 +1,17 @@
+body {
+  background-color: $color-light-grey;
+
+}
+
+* {
+  box-sizing: border-box;
+}
+
+section {
+  margin-bottom: $main-spacing;
+}
+
+img{
+  max-width: 100%;
+  max-height: 100%;
+}

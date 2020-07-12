@@ -1,0 +1,36 @@
+@mixin grid($cols) {
+  $base-width: 100% / $cols;
+
+  @for $i from 1 through $cols {
+    .col-#{$i} {
+      width: $base-width * $i;
+    }
+  }
+}
+
+.container {
+  max-width: 1352px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 10px;
+  .row {
+    display: flex;
+    flex-wrap: wrap;
+    [class*="col-"] {
+      min-height: 1px;
+      width: 100%;
+      padding: 0 10px;
+    }
+    @media screen and (min-width: 600px) {
+      @include grid(12);
+    }
+  }
+}
+.box {
+  padding: 20px;
+  text-align: center;
+  font-weight: 700;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  color: #fff;
+  background-color: rgb(109, 50, 50);
+}
