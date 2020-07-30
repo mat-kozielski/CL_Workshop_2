@@ -28,5 +28,6 @@ function watcher(done) {
         gulp.series(compileSass, reload)
     );
     gulp.watch("./*.html", gulp.series(reload));
+    gulp.watch(entryPath + "/js/*.js", gulp.series(reload));
 }
 exports.default = gulp.parallel(compileSass, watcher);
