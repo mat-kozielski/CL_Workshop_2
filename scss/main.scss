@@ -1,16 +1,15 @@
-@import "./config/reset";
-@import "./config/variables";
-@import "./config/mixins";
-@import "./config/typography";
-@import "./config/grid";
+@import "generic/reset";
 
-@import "./elements/buttons";
-@import "./elements/box";
-@import "./elements/article";
-@import "./elements/calculator";
+@import "settings";
 
-@import "./layout/base";
-@import "./layout/header";
-@import "./layout/first-section";
-@import "./layout/secound-section";
-@import "./layout/third-section";
+@import "elements/base";
+@import "elements/buttons";
+@import "elements/header";
+@import "elements/opening";
+@import "elements/statistics";
+@import "elements/benefits";
+@import "elements/pricing";
+@import "elements/contact";
+@import "elements/form";
+@import "elements/footer";
+@import "elements/calculator";

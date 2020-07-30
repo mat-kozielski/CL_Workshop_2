@@ -1,63 +1,27 @@
-//@use "sass:color";
-//
-.btn{
-  display: inline-block;
-  color: $color-white;
+.btn {
+  color: white;
   font-weight: bold;
-  padding: 22px 92px;
-  border-radius: $border-btn-radius;
-  background-color: $color-primary;
-  box-shadow: 5px 10px 14px $color-primary-shadow;
-  font-family: $font-open-sans;
-}
+  display: inline-block;
+  padding: 16px 65px;
+  border-radius: $button-radius;
+  border: none;
 
-//%button {
-//  padding: $main-spacing;
-//  border-radius: $border-radius;
-//  border: none;
-//  margin-bottom: $main-spacing;
-//  font-weight: 700;
-//  font-family: $font-primary;
-//  cursor: pointer;
-//  width: 100%;
-//  font-size: 1.2rem;
-//  display: flex;
-//  justify-content: center;
-//  align-items: center;
-//
-//  span {
-//    margin: 0 $main-spacing/2;
-//  }
-//
-//  &.button-big {
-//    font-size: 1.6rem;
-//  }
-//
-//  @include desktop {
-//    &.button-icon-right {
-//      flex-direction: row-reverse;
-//      justify-content: space-between;
-//    }
-//  }
-//}
-//
-//.button {
-//  @extend %button;
-//  color: $color-text;
-//  background-color: $color-background;
-//
-//  &:hover {
-//    background-color: color.scale($color-background, $lightness: 10%);
-//  }
-//}
-//
-//.button-primary {
-//  @extend %button;
-//
-//  color: #fff;
-//  background-color: $color-primary;
-//
-//  &:hover {
-//    background-color: color.scale($color-primary, $lightness: 10%);
-//  }
-//}
+
+  &--primary {
+    background-color: $color-primary;
+    border-radius: $button-radius;
+    box-shadow: 3px 10px 14px $color-primary-shadow;
+  }
+
+  &--redish {
+    background-color: $color-redish;
+  }
+
+  &--green {
+    background-color: $color-green;
+  }
+
+  &--large {
+    padding: 22px 155px;
+  }
+}
