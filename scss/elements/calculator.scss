@@ -2,12 +2,14 @@
   padding: 80px 0;
   background-color: $color-light-grey;
 
-  @include tablet {
+  @include desktop {
     padding: 30px 15px;
   }
 
   h2 {
+    font-family: "Raleway", sans-serif;
     text-align: center;
+    font-weight: normal;
   }
 
   &__columns {
@@ -15,7 +17,7 @@
     margin: 50px auto 0;
     display: flex;
 
-    @include tablet {
+    @include desktop {
       display: block;
     }
   }
@@ -24,7 +26,7 @@
     width: 50%;
     margin-right: 20px;
 
-    @include tablet {
+    @include desktop {
       width: 100%;
       margin-right: 0;
     }
@@ -40,7 +42,7 @@
     padding: 11px 20px;
     line-height: 1em;
     font-size: 0.8125rem;
-    box-shadow: 0px 3px 6px $color-primary-shadow;
+    box-shadow: 0 3px 6px $color-primary-shadow;
     margin-bottom: 20px;
     background-color: $color-white;
   }
@@ -82,7 +84,7 @@
       background-color: white;
       width: 100%;
       border-radius: 6px;
-      border: 1px solid $color-redish;
+      border: 1px solid $color-reddish;
       overflow: hidden;
 
       li {
@@ -120,7 +122,7 @@
     display: flex;
     flex-direction: column;
 
-    @include tablet {
+    @include desktop {
       width: 100%;
       margin-left: 0;
       margin-top: 30px;
@@ -128,7 +130,7 @@
 
     .summary__total,
     .list__item {
-      box-shadow: 0px 3px 6px rgba(0, 0, 0, .16);
+      box-shadow: 0 3px 6px rgba(0, 0, 0, .16);
       border-radius: 6px;
       justify-content: space-between;
       align-items: center;
